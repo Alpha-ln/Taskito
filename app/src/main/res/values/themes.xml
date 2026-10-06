@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Taskito" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Taskito" parent="Base.Theme.Taskito" />
+
+    <style name="CalendarViewCustom" parent="Theme.AppCompat">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/gray_light</item>
+        <item name="android:colorControlActivated">@color/white</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:dateTextAppearance">@style/CalendarDateText</item>
+        <item name="android:weekDayTextAppearance">@style/CalendarWeekText</item>
+    </style>
+
+    <style name="CalendarDateText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CalendarWeekText">
+        <item name="android:textColor">@color/gray_light</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomDatePickerTheme" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DatePickerButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DatePickerButton</item>
+    </style>
+
+    <style name="DatePickerButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="headerText" parent="Theme.AppCompat.Light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="headerText2" parent="Theme.AppCompat.Light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="btnStyle">
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="roundingStyle" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
+    </style>
+</resources>

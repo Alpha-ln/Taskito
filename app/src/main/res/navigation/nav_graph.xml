@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeItem">
+
+    <fragment
+        android:id="@+id/homeItem"
+        android:name="com.example.taskito.view.Host"
+        android:label="fragment_host"
+        tools:layout="@layout/fragment_host" />
+
+    <fragment
+        android:id="@+id/addTaskItem"
+        android:name="com.example.taskito.view.AddTask"
+        android:label="fragment_add_task"
+        tools:layout="@layout/fragment_add_task" />
+    <fragment
+        android:id="@+id/analyticsItem"
+        android:name="com.example.taskito.view.AnalyticsFragment"
+        android:label="fragment_analytics" />
+</navigation>
