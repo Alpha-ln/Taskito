@@ -75,10 +75,3 @@ cd taskito
 - [ ] Unit and UI tests
 - [ ] Play Store release
 
-## Contributing
-
-Contributions are welcome. Fork the repo, create a feature branch, and open a pull request.
-
-## License
-
-Add your license here (for example, MIT).
