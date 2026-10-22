@@ -55,17 +55,6 @@ app/src/main/java/com/example/todoapp/
 - JDK 17
 - Android SDK 26 or higher
 
-### Build and run
-
-```bash
-git clone https://github.com/<your-username>/taskito.git
-cd taskito
-```
-
-1. Open the project in Android Studio
-2. Let Gradle sync finish
-3. Select an emulator or a connected device
-4. Press **Run**
 
 ## Roadmap
 
